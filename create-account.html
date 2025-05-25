@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="utf-8"/>
+     <meta content="width=device-width, initial-scale=1" name="viewport"/>
+     <title>
+      Create an account
+     </title>
+     <script src="https://cdn.tailwindcss.com">
+     </script>
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Whitney:wght@600&display=swap');
+       body {
+         font-family: 'Whitney', sans-serif;
+       }
+     </style>
+    </head>
+    <body class="min-h-screen flex items-center justify-center bg-[#3b2a9a] relative overflow-hidden">
+     <img alt="Purple space background with subtle glowing orbs and stars" class="absolute inset-0 w-full h-full object-cover -z-10" height="600" src="https://storage.googleapis.com/a1aa/image/57b84fca-aae1-48a1-d92b-33938038cbf0.jpg" width="600"/>
+     <form aria-label="Create an account form" class="bg-[#2f2f33] rounded-lg p-8 w-[360px] max-w-full text-white">
+      <h2 class="text-center font-semibold text-lg mb-6">
+       Create an account
+      </h2>
+      <label class="block text-[10px] font-bold mb-1" for="email">
+       EMAIL
+       <span class="text-[#ed4245]">
+        *
+       </span>
+      </label>
+      <input autocomplete="email" class="w-full bg-[#2f2f33] border border-[#5865f2] rounded-md px-3 py-2 mb-4 text-white placeholder:text-[#b9bbbe] focus:outline-none focus:ring-1 focus:ring-[#5865f2]" id="email" placeholder="" required="" type="email"/>
+      <label class="block text-[10px] font-bold mb-1" for="displayName">
+       DISPLAY NAME
+      </label>
+      <input autocomplete="name" class="w-full bg-[#2f2f33] rounded-md px-3 py-2 mb-4 text-white placeholder:text-[#b9bbbe] border border-transparent focus:outline-none focus:ring-1 focus:ring-[#5865f2]" id="displayName" placeholder="" type="text"/>
+      <label class="block text-[10px] font-bold mb-1" for="username">
+       USERNAME
+       <span class="text-[#ed4245]">
+        *
+       </span>
+      </label>
+      <input autocomplete="username" class="w-full bg-[#2f2f33] rounded-md px-3 py-2 mb-4 text-white placeholder:text-[#b9bbbe] border border-transparent focus:outline-none focus:ring-1 focus:ring-[#5865f2]" id="username" placeholder="" required="" type="text"/>
+      <label class="block text-[10px] font-bold mb-1" for="password">
+       PASSWORD
+       <span class="text-[#ed4245]">
+        *
+       </span>
+      </label>
+      <input autocomplete="new-password" class="w-full bg-[#2f2f33] rounded-md px-3 py-2 mb-4 text-white placeholder:text-[#b9bbbe] border border-transparent focus:outline-none focus:ring-1 focus:ring-[#5865f2]" id="password" placeholder="" required="" type="password"/>
+      <label class="block text-[10px] font-bold mb-2">
+       DATE OF BIRTH
+       <span class="text-[#ed4245]">
+        *
+       </span>
+      </label>
+      <div class="flex space-x-2 mb-4">
+       <select aria-label="Month" class="bg-[#2f2f33] text-white text-xs rounded-md px-3 py-2 w-1/3 border border-transparent focus:outline-none focus:ring-1 focus:ring-[#5865f2]">
+        <option disabled="" selected="">
+         Month
+        </option>
+        <option>
+         January
+        </option>
+        <option>
+         February
+        </option>
+        <option>
+         March
+        </option>
+        <option>
+         April
+        </option>
+        <option>
+         May
+        </option>
+        <option>
+         June
+        </option>
+        <option>
+         July
+        </option>
+        <option>
+         August
+        </option>
+        <option>
+         September
+        </option>
+        <option>
+         October
+        </option>
+        <option>
+         November
+        </option>
+        <option>
+         December
+        </option>
+       </select>
+    </select>
+    <select aria-label="Day" class="bg-[#2f2f33] text-white text-xs rounded-md px-3 py-2 w-1/3 border border-transparent focus:outline-none focus:ring-1 focus:ring-[#5865f2]">
+      <option disabled selected>Day</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      <option>13</option>
+      <option>14</option>
+      <option>15</option>
+      <option>16</option>
+      <option>17</option>
+      <option>18</option>
+      <option>19</option>
+      <option>20</option>
+      <option>21</option>
+      <option>22</option>
+      <option>23</option>
+      <option>24</option>
+      <option>25</option>
+      <option>26</option>
+      <option>27</option>
+      <option>28</option>
+      <option>29</option>
+      <option>30</option>
+      <option>31</option>
+    </select>
+    <select aria-label="Year" class="bg-[#2f2f33] text-white text-xs rounded-md px-3 py-2 w-1/3 border border-transparent focus:outline-none focus:ring-1 focus:ring-[#5865f2]">
+      <option disabled selected>Year</option>
+      <option>2024</option>
+      <option>2023</option>
+      <option>2022</option>
+      <option>2021</option>
+      <option>2020</option>
+      <option>2019</option>
+      <option>2018</option>
+      <option>2017</option>
+      <option>2016</option>
+      <option>2015</option>
+      <option>2014</option>
+      <option>2013</option>
+      <option>2012</option>
+      <option>2011</option>
+      <option>2010</option>
+      <option>2009</option>
+      <option>2008</option>
+      <option>2007</option>
+      <option>2006</option>
+      <option>2005</option>
+      <option>2004</option>
+      <option>2003</option>
+      <option>2002</option>
+      <option>2001</option>
+      <option>2000</option>
+      <option>1999</option>
+      <option>1998</option>
+      <option>1997</option>
+      <option>1996</option>
+      <option>1995</option>
+      <option>1994</option>
+      <option>1993</option>
+      <option>1992</option>
+      <option>1991</option>
+      <option>1990</option>
+      <option>1989</option>
+      <option>1988</option>
+      <option>1987</option>
+      <option>1986</option>
+      <option>1985</option>
+      <option>1984</option>
+      <option>1983</option>
+      <option>1982</option>
+      <option>1981</option>
+      <option>1980</option>
+      <option>1979</option>
+      <option>1978</option>
+      <option>1977</option>
+      <option>1976</option>
+      <option>1975</option>
+      <option>1974</option>
+      <option>1973</option>
+      <option>1972</option>
+      <option>1971</option>
+      <option>1970</option>
+      <option>1969</option>
+      <option>1968</option>
+      <option>1967</option>
+      <option>1966</option>
+      <option>1965</option>
+      <option>1964</option>
+      <option>1963</option>
+      <option>1962</option>
+      <option>1961</option>
+      <option>1960</option>
+      <option>1959</option>
+      <option>1958</option>
+      <option>1957</option>
+      <option>1956</option>
+      <option>1955</option>
+      <option>1954</option>
+      <option>1953</option>
+      <option>1952</option>
+      <option>1951</option>
+      <option>1950</option>
+      <option>1949</option>
+      <option>1948</option>
+      <option>1947</option>
+      <option>1946</option>
+      <option>1945</option>
+      <option>1944</option>
+      <option>1943</option>
+      <option>1942</option>
+      <option>1941</option>
+      <option>1940</option>
+      <option>1939</option>
+      <option>1938</option>
+      <option>1937</option>
+      <option>1936</option>
+      <option>1935</option>
+      <option>1934</option>
+      <option>1933</option>
+      <option>1932</option>
+      <option>1931</option>
+      <option>1930</option>
+    </select>
+   </div>
+   <label class="flex items-start space-x-2 mb-4 text-[10px] text-[#b9bbbe]">
+    <input class="mt-1 w-4 h-4 rounded border border-[#b9bbbe] bg-[#2f2f33] focus:ring-1 focus:ring-[#5865f2]" type="checkbox"/>
+    <span class="leading-tight">
+     (Optional) It's okay to send me emails with One Vote One Future updates, tips, and special offers. You can opt out at any time.
+    </span>
+   </label>
+   <button class="w-full bg-[#5865f2] text-white text-sm font-semibold rounded-md py-2 mb-3 hover:bg-[#4752c4] transition-colors" type="submit">
+    Continue
+   </button>
+   <p class="text-[9px] text-[#72767d] mb-2">
+    By registering, you agree to One Vote One Future's
+    <a class="text-[#5865f2] hover:underline" href="#">
+     Terms of Service
+    </a>
+    and
+    <a class="text-[#5865f2] hover:underline" href="#">
+     Privacy Policy
+    </a>
+    .
+   </p>
+   <p class="text-[10px] font-semibold text-[#72767d] cursor-pointer hover:underline" href="login.html">
+    <a href="login.html"> Already have an account? Login here </a>
+   </p>
+  </form>
+</body>
+</html>

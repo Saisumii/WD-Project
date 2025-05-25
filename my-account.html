@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>
+My Account
+</title>
+<script src="https://cdn.tailwindcss.com">
+</script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Whitney:wght@400;600&display=swap');
+body {
+font-family: 'Whitney', system-ui, -apple-system, BlinkMacSystemFont,
+'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+'Helvetica Neue', sans-serif;
+}
+</style>
+</head>
+<body class="bg-[#2f2f33] text-white min-h-screen flex justify-center items-start p-4">
+<div class="flex w-full max-w-[1200px] min-h-[720px] rounded-md overflow-hidden shadow-lg">
+<!-- Sidebar -->
+<aside class="bg-[#29292e] w-64 flex flex-col p-4 space-y-4 text-[13px] select-none">
+<div>
+<input aria-label="Search" class="w-full bg-[#3a3a40] rounded-md px-3 py-1.5 text-white placeholder:text-[#b0b0b0] text-[13px] focus:outline-none" placeholder="Search" type="search"/>
+<button aria-label="Search button" class="absolute right-6 top-6 text-[#b0b0b0] hover:text-white" tabindex="-1">
+<i class="fas fa-search">
+</i>
+</button>
+</div>
+<div class="uppercase text-[9px] font-semibold text-[#7a7a7a] mb-1 select-none">
+User Settings
+</div>
+<nav class="flex flex-col space-y-1 text-[14px] font-normal">
+<button aria-current="page" class="bg-[#3a3a40] rounded-md px-3 py-1.5 text-white font-semibold text-[14px] text-left flex items-center justify-between">
+My Account
+</button>
+<button class="flex items-center justify-between px-3 py-1.5 rounded-md hover:bg-[#3a3a40]">
+<span>
+Profiles
+</span>
+<span class="bg-[#ff4c4c] text-[10px] font-bold rounded-full px-1.5 py-[1px] ml-2 select-none">
+NEW
+</span>
+</button>
+<button class="px-3 py-1.5 rounded-md hover:bg-[#3a3a40] text-left w-full">
+Content &amp; Social
+</button>
+<button class="px-3 py-1.5 rounded-md hover:bg-[#3a3a40] text-left w-full">
+Data &amp; Privacy
+</button>
+<button class="px-3 py-1.5 rounded-md hover:bg-[#3a3a40] text-left w-full">
+Devices
+</button>
+<button class="px-3 py-1.5 rounded-md hover:bg-[#3a3a40] text-left w-full">
+Connections
+</button>
+</nav>
+<div class="uppercase text-[9px] font-semibold text-[#7a7a7a] mt-6 mb-1 select-none">
+Website Settings
+</div>
+<nav class="flex flex-col space-y-1 text-[14px] font-normal">
+<a href="index.html " class="block px-3 py-1.5 rounded-md hover:bg-[#3a3a40] tex-left w-full">
+Home
+</a>
+</button>
+<a href="candidates.html" class="block px-3 py-1.5 rounded-md hover:bg-[#3a3a40] tex-left w-full">
+Candidates
+</a>
+</button>
+<button class="px-3 py-1.5 rounded-md hover:bg-[#3a3a40] text-left w-full">
+Awareness
+</button>
+<button class="px-3 py-1.5 rounded-md hover:bg-[#3a3a40] text-left w-full">
+Notifications
+</button>
+<button class="px-3 py-1.5 rounded-md hover:bg-[#3a3a40] text-left w-full">
+Report
+</button>
+<button class="px-3 py-1.5 rounded-md hover:bg-[#3a3a40] text-left w-full">
+Forum
+</button>
+</nav>
+</aside>
+<!-- Main content -->
+<main class="flex-1 bg-[#3a3a40] p-6 relative text-[14px]">
+<header class="flex justify-between items-center mb-6">
+<h1 class="text-white font-semibold text-lg select-none">
+My Account
+</h1>
+<button aria-label="Close" class="text-[#b0b0b0] hover:text-white text-xl font-light rounded-full border border-transparent hover:border-[#b0b0b0] w-8 h-8 flex items-center justify-center">
+<i class="fas fa-times">
+</i>
+</button>
+</header>
+<nav class="flex space-x-6 mb-6 text-[13px] select-none">
+<button aria-current="page" class="text-[#4a90e2] border-b-2 border-[#4a90e2] pb-1 font-semibold">
+Security
+</button>
+</nav>
+<section class="bg-[#2f2f33] rounded-md p-4 max-w-4xl">
+<div class="flex items-center space-x-4 mb-4">
+<img alt="Avatar of Kioshi wearing blue shirt and glasses" class="rounded-full border-2 border-[#29292e]" height="48" src="https://storage.googleapis.com/a1aa/image/27527e7b-6de4-4ee5-d321-56d9f96702f4.jpg" width="48"/>
+<div class="flex flex-col">
+<div class="flex items-center space-x-2 font-semibold text-white">
+<span>
+Kioshi
+</span>
+<span class="text-[#b0b0b0] text-lg select-none">
+•••
+</span>
+<i class="fas fa-minus-circle text-[#e03c3c] text-sm">
+</i>
+</div>
+<div>
+<span class="inline-block bg-[#3a3a40] rounded-full px-1.5 py-0.5 text-xs text-[#4a90e2] font-semibold select-none">
+#
+</span>
+</div>
+</div>
+<button class="ml-auto bg-[#5865f2] text-white text-xs font-semibold rounded-md px-3 py-1 hover:bg-[#4752c4]">
+Edit User Profile
+</button>
+</div>
+<div class="bg-[#29292e] rounded-md p-4 space-y-4 text-[13px]">
+<div class="flex justify-between items-center">
+<div>
+<div class="font-semibold text-white select-none">
+Display Name
+</div>
+<div>
+Kioshi
+</div>
+</div>
+<button class="bg-[#4a4a4f] text-[#b0b0b0] text-xs rounded-md px-3 py-1 hover:bg-[#5a5a5f]">
+Edit
+</button>
+</div>
+<div class="flex justify-between items-center">
+<div>
+<div class="font-semibold text-white select-none">
+Username
+</div>
+<div>
+kioshi29
+</div>
+</div>
+<button class="bg-[#4a4a4f] text-[#b0b0b0] text-xs rounded-md px-3 py-1 hover:bg-[#5a5a5f]">
+Edit
+</button>
+</div>
+<div class="flex justify-between items-center">
+<div>
+<div class="font-semibold text-white select-none">
+Email
+</div>
+<div>
+<span class="select-text">
+****************@gmail.com
+</span>
+<button class="text-[#4a90e2] text-xs ml-1 hover:underline">
+Reveal
+</button>
+</div>
+</div>
+<button class="bg-[#4a4a4f] text-[#b0b0b0] text-xs rounded-md px-3 py-1 hover:bg-[#5a5a5f]">
+Edit
+</button>
+</div>
+<div class="flex justify-between items-center">
+<div>
+<div class="font-semibold text-white select-none">
+Phone Number
+</div>
+<div class="flex items-center space-x-2">
+<span class="select-text">
+********6155
+</span>
+<button class="text-[#4a90e2] text-xs hover:underline">
+Reveal
+</button>
+</div>
+</div>
+<div class="flex items-center space-x-2">
+<button class="text-[#4a90e2] text-xs hover:underline">
+Remove
+</button>
+<button class="bg-[#4a4a4f] text-[#b0b0b0] text-xs rounded-md px-3 py-1 hover:bg-[#5a5a5f]">
+Edit
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-8 max-w-4xl">
+<h2 class="font-semibold text-white mb-3 select-none text-[14px]">
+Password and Authentication
+</h2>
+<button class="bg-[#5865f2] text-white text-xs font-semibold rounded-md px-3 py-1 mb-4 hover:bg-[#4752c4]">
+Change Password
+</button>
+<div class="mb-4 text-[12px] text-[#b0b0b0] max-w-xl select-text leading-relaxed">
+<button class="bg-[#5865f2] text-white text-xs font-semibold rounded-md px-3 py-1 mb-6 hover:bg-[#4752c4]">
+Enable Authenticator App
+</button>
+<div class="text-[12px] text-[#b0b0b0] max-w-xl select-text">
+</div>
+</section>
+</main>
+</div>
+</body>
+</html>
